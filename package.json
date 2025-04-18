@@ -1,0 +1,22 @@
+{
+  "name": "bird-posture-express",
+  "module": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run server.js",
+    "dev": "bun --watch run server.js",
+    "test": "bun jest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2"
+  }
+}
